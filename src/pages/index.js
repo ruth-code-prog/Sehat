@@ -9,6 +9,7 @@ import ForgotPass from './ForgetPass';
 import Video from './Video';
 import PenunjangUser from './PenunjangUser';
 import DrugReferensi from './DrugReferensi';
+import DrugBerbayar from './DrugBerbayar';
 
 export {
   Home,
@@ -21,5 +22,6 @@ export {
   ForgotPass,
   Video,
   PenunjangUser,
-  DrugReferensi
+  DrugReferensi,
+  DrugBerbayar
 };

@@ -196,6 +196,13 @@ const Sukses = () => {
         <Gap height={20} />
         <Button
           onPress={() =>
+          navigation.navigate('DrugBerbayar')}
+          title="Drug Referensi Berbayar"
+          style={{width: '100%'}}
+        />
+        <Gap height={20} />
+        <Button
+          onPress={() =>
             navigation.navigate('Video', {
               profile,
             })

@@ -11,7 +11,8 @@ import {
   ForgotPass,
   Video,
   PenunjangUser,
-  DrugReferensi
+  DrugReferensi,
+  DrugBerbayar
 } from '../pages';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {BottomTabNavigator} from '../components';
@@ -77,6 +78,11 @@ const Router = () => {
       <Stack.Screen
         name="DrugReferensi"
         component={DrugReferensi}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="DrugBerbayar"
+        component={DrugBerbayar}
         options={{headerShown: false}}
       />
     </Stack.Navigator>

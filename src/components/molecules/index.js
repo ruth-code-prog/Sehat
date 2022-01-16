@@ -5,6 +5,7 @@ import HeadlineItem from './HeadlineItem';
 import HomeProfile from './HomeProfile';
 import InputData from './InputData';
 import JadwalCard from './JadwalCard';
+import ProdukCard from './ProdukCard';
 import Loading from './Loading';
 import ModalAddPenunjang from './ModalAddPenunjang';
 import ModalPenunjang from './ModalPenunjang';
@@ -30,4 +31,5 @@ export {
   Profile,
   TabItem,
   VideoPlayer,
+  ProdukCard
 };

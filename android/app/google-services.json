@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "900904488481",
+    "firebase_url": "https://sehat-888cb-default-rtdb.firebaseio.com",
+    "project_id": "sehat-888cb",
+    "storage_bucket": "sehat-888cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900904488481:android:e130bd5fae379c1eb2dd60",
+        "android_client_info": {
+          "package_name": "com.sehat.bayukarta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900904488481-r94gpb4trlfj6u1us22061om549ejtm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRkY3j9SN5AMGxvRf3KOz3gUb9mLW3P2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900904488481-r94gpb4trlfj6u1us22061om549ejtm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

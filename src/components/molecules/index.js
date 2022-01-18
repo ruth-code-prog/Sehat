@@ -9,6 +9,7 @@ import ProdukCard from './ProdukCard';
 import Loading from './Loading';
 import ModalAddPenunjang from './ModalAddPenunjang';
 import ModalPenunjang from './ModalPenunjang';
+import ModalDrug from './ModalDrug';
 import PopUp from './PopUp';
 import PopupPoint from './PopupPoint';
 import Profile from './Profile';
@@ -26,10 +27,11 @@ export {
   Loading,
   ModalAddPenunjang,
   ModalPenunjang,
+  ModalDrug,
   PopUp,
   PopupPoint,
   Profile,
   TabItem,
   VideoPlayer,
-  ProdukCard
+  ProdukCard,
 };

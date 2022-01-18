@@ -22,6 +22,7 @@ import {
   Gap,
   HomeProfile,
   Loading,
+  ModalDrug,
   ModalPenunjang,
   PopUp,
 } from '../../components';
@@ -43,6 +44,7 @@ const Sukses = () => {
   const [popUp, setPopUp] = useState(false);
 
   const [penunjangModal, setPenunjangModal] = useState(false);
+  const [drugModal, setDrugModal] = useState(false);
 
   useFocusEffect(
     useCallback(() => {
@@ -188,15 +190,13 @@ const Sukses = () => {
         ))}
         <Gap height={20} />
         <Button
-          onPress={() =>
-          navigation.navigate('DrugReferensi')}
+          onPress={() => navigation.navigate('DrugReferensi')}
           title="Drug Referensi"
           style={{width: '100%'}}
         />
         <Gap height={20} />
         <Button
-          onPress={() =>
-          navigation.navigate('DrugBerbayar')}
+          onPress={() => setDrugModal(true)}
           title="Drug Referensi Berbayar"
           style={{width: '100%'}}
         />
@@ -241,6 +241,12 @@ const Sukses = () => {
         profile={userHomeData}
         onSubmit={() => setPenunjangModal(false)}
         onClose={() => setPenunjangModal(false)}
+      />
+      <ModalDrug
+        visible={drugModal}
+        profile={userHomeData}
+        onSubmit={() => setDrugModal(false)}
+        onClose={() => setDrugModal(false)}
       />
     </ImageBackground>
   );
